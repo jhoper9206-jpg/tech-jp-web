@@ -11,7 +11,7 @@ export default function Footer() {
             </h2>
 
             <p className="text-slate-400 leading-relaxed">
-              Soporte Técnico & Soluciones Tecnológicas
+              Soporte Técnico &amp; Soluciones Tecnológicas
             </p>
 
             <p className="text-blue-400 mt-3 font-medium">
@@ -53,9 +53,39 @@ export default function Footer() {
             </h3>
 
             <div className="space-y-2 text-slate-400">
-              <p>WhatsApp: 333 262 7572</p>
-              <p>Tech.jp34@gmail.com</p>
-              <p>Instagram: @tech.jp34</p>
+              <p>
+                WhatsApp:{" "}
+                <a
+                  href="https://wa.me/573332627572?text=Hola%2C%20Tech.JP.%20Quisiera%20solicitar%20informaci%C3%B3n%20sobre%20un%20servicio%20t%C3%A9cnico."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition"
+                >
+                  333 262 7572
+                </a>
+              </p>
+
+              <p>
+                Correo:{" "}
+                <a
+                  href="mailto:Tech.jp34@gmail.com"
+                  className="hover:text-blue-400 transition"
+                >
+                  Tech.jp34@gmail.com
+                </a>
+              </p>
+
+              <p>
+                Instagram:{" "}
+                <a
+                  href="https://www.instagram.com/tech.jp34/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition"
+                >
+                  @tech.jp34
+                </a>
+              </p>
             </div>
           </div>
 

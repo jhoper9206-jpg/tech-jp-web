@@ -29,27 +29,43 @@ export default function Contact() {
             </h3>
 
             <div className="space-y-5 text-slate-600">
-              <p>
-                <span className="font-semibold text-slate-900">
-                  📱 WhatsApp:
-                </span>
-                {" "}333 262 7572
-              </p>
-
-              <p>
-                <span className="font-semibold text-slate-900">
-                  ✉️ Correo:
-                </span>
-                {" "}Tech.jp34@gmail.com
-              </p>
-
-              <p>
-                <span className="font-semibold text-slate-900">
-                  📷 Instagram:
-                </span>
-                {" "}@tech.jp34
-              </p>
-
+<p>
+  <span className="font-semibold text-slate-900">
+    📱 WhatsApp:
+  </span>{" "}
+  <a
+    href={whatsappUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    333 262 7572
+  </a>
+</p>
+<p>
+  <span className="font-semibold text-slate-900">
+    ✉️ Correo:
+  </span>{" "}
+  <a
+    href="mailto:Tech.jp34@gmail.com"
+    className="text-blue-600 hover:underline"
+  >
+    Tech.jp34@gmail.com
+  </a>
+</p>
+<p>
+  <span className="font-semibold text-slate-900">
+    📷 Instagram:
+  </span>{" "}
+  <a
+    href="https://www.instagram.com/tech.jp34/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    @tech.jp34
+  </a>
+</p>
               <p>
                 <span className="font-semibold text-slate-900">
                   🛠️ Modalidad:
