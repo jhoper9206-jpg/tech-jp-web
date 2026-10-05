@@ -10,6 +10,7 @@
 
 import Header from './components/Header';
 import Hero from './Hero';
+import Services from './Services';
 export default function App() {
   const whatsappUrl =
     "https://wa.me/573332627572?text=Hola%2C%20Tech.JP.%20Quisiera%20solicitar%20informaci%C3%B3n%20sobre%20un%20servicio%20t%C3%A9cnico.";
@@ -24,7 +25,7 @@ export default function App() {
   whatsappUrl={whatsappUrl}
 />
 
-
+<Services />
 
 
 
